@@ -1,0 +1,225 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{brown2020language,garg2022can}
+\citation{wei2022emergent}
+\citation{turner2023activation}
+\citation{todd2023function,hendel2023context}
+\citation{ravfogel2020null,elazar2021amnesic}
+\@writefile{toc}{\contentsline {title}{Single-Position Intervention Fails: \unskip \ \ignorespaces  Distributed Output Templates Drive In-Context Learning}{1}{chapter.1}\protected@file@percent }
+\@writefile{toc}{\authcount {1}}
+\@writefile{toc}{\contentsline {author}{Anonymous Authors}{1}{chapter.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background}{2}{section.2}\protected@file@percent }
+\newlabel{sec:background}{{2}{2}{Background}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Problem Setting}{2}{subsection.2.1}\protected@file@percent }
+\citation{olsson2022context}
+\citation{wang2023interpretability,conmy2023towards}
+\citation{vig2020investigating,meng2022locating}
+\citation{belinkov2019analysis}
+\citation{elhage2021mathematical}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Prior Work}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{3}{section.3}\protected@file@percent }
+\newlabel{sec:method}{{3}{3}{Method}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Notation and Preliminaries}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{ICL Prompt Structure.}{3}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Intervention Outcomes.}{3}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Task Suite}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Task suite covering procedural, numeric, and semantic operations.}}{4}{table.1}\protected@file@percent }
+\newlabel{tab:tasks}{{1}{4}{Task suite covering procedural, numeric, and semantic operations}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Probing for Localization}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Single-Position Intervention}{4}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Control Experiments.}{4}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Multi-Position Intervention}{4}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Causal Tracing via Noise Injection}{4}{subsection.3.6}\protected@file@percent }
+\citation{bai2023qwen}
+\citation{team2024gemma}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Probe accuracy (\%) by position and layer.}}{5}{table.2}\protected@file@percent }
+\newlabel{tab:probing}{{2}{5}{Probe accuracy (\%) by position and layer}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Format Compatibility Analysis}{5}{subsection.3.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{5}{section.4}\protected@file@percent }
+\newlabel{sec:experiments}{{4}{5}{Experiments}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experimental Setup}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Models.}{5}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Activation Extraction.}{5}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Evaluation Metrics.}{5}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Probing Results}{5}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Single-Position Intervention: Complete Failure}{5}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Single-position intervention fails at all layers; ablation controls confirm positions are not causally necessary.}}{6}{table.3}\protected@file@percent }
+\newlabel{tab:single}{{3}{6}{Single-position intervention fails at all layers; ablation controls confirm positions are not causally necessary}{table.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Main Results: Single-position intervention fails; multi-position succeeds.} (a) Layer sweep: single-position intervention (gray) achieves 0\% transfer at all 28 layers; multi-position intervention (orange) peaks at 96\% at layer 8. (b) Condition comparison at layer 8: \texttt  {all\_demo} (96\%) and \texttt  {output\_only} (94\%) both succeed; \texttt  {input\_only} fails (0\%). (c) Task pair transfer matrix: a cluster of tasks (uppercase, repeat, length) shows high bidirectional transfer (50--100\%).}}{6}{figure.1}\protected@file@percent }
+\newlabel{fig:main_results}{{1}{6}{\textbf {Main Results: Single-position intervention fails; multi-position succeeds.} (a) Layer sweep: single-position intervention (gray) achieves 0\% transfer at all 28 layers; multi-position intervention (orange) peaks at 96\% at layer 8. (b) Condition comparison at layer 8: \texttt {all\_demo} (96\%) and \texttt {output\_only} (94\%) both succeed; \texttt {input\_only} fails (0\%). (c) Task pair transfer matrix: a cluster of tasks (uppercase, repeat, length) shows high bidirectional transfer (50--100\%)}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Multi-Position Intervention: The Breakthrough}{6}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Transfer is sparse but predictable.}{6}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{$\sim $30\% depth is optimal.}{6}{section*.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Multi-position intervention results (N=50 with Wilson score 95\% CIs). Replacing demo output positions at layer 8 achieves 96\% transfer for format-compatible pairs.}}{7}{table.4}\protected@file@percent }
+\newlabel{tab:multi}{{4}{7}{Multi-position intervention results (N=50 with Wilson score 95\% CIs). Replacing demo output positions at layer 8 achieves 96\% transfer for format-compatible pairs}{table.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Causal tracing: disruption rates under noise injection.}}{7}{table.5}\protected@file@percent }
+\newlabel{tab:causal}{{5}{7}{Causal tracing: disruption rates under noise injection}{table.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Output tokens carry task identity.}{7}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Multi-model replication.}{7}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Baseline controls.}{7}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Causal Tracing: Necessity vs.\ Sufficiency}{7}{subsection.4.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Causal Analysis: Query is necessary; demos are collectively sufficient.} (a) Noise injection disruption: query position shows 50--100\% accuracy drop in layers 0--14; demo positions show near-0\% disruption. (b) Position roles: query is necessary but not sufficient; individual demos are neither; all demos together are sufficient. (c) Information flow: probe accuracy at demo positions stays at 100\%; query position rises from 12\% to 83\%, peaking at layer 12.}}{8}{figure.2}\protected@file@percent }
+\newlabel{fig:causal}{{2}{8}{\textbf {Causal Analysis: Query is necessary; demos are collectively sufficient.} (a) Noise injection disruption: query position shows 50--100\% accuracy drop in layers 0--14; demo positions show near-0\% disruption. (b) Position roles: query is necessary but not sufficient; individual demos are neither; all demos together are sufficient. (c) Information flow: probe accuracy at demo positions stays at 100\%; query position rises from 12\% to 83\%, peaking at layer 12}{figure.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Baseline controls (N=20). All controls yield 0\% or reduced transfer vs.\ true source.}}{8}{table.6}\protected@file@percent }
+\newlabel{tab:controls}{{6}{8}{Baseline controls (N=20). All controls yield 0\% or reduced transfer vs.\ true source}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Format Compatibility}{8}{subsection.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{What determines compatibility?}{8}{section*.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Task Structure.} (a) Activation similarity (layer 12). (b) Format transfer. (c) Surface similarity does NOT predict transfer (r=$-$0.05); activation r=0.31. (d) Target demo count (transfer constant at 33\%).}}{9}{figure.3}\protected@file@percent }
+\newlabel{fig:structure}{{3}{9}{\textbf {Task Structure.} (a) Activation similarity (layer 12). (b) Format transfer. (c) Surface similarity does NOT predict transfer (r=$-$0.05); activation r=0.31. (d) Target demo count (transfer constant at 33\%)}{figure.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{9}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Why single-position fails and layer 8 works.}{9}{section*.14}\protected@file@percent }
+\citation{wei2022chain}
+\citation{todd2023function}
+\citation{hendel2023context}
+\citation{hinton1984distributed,elhage2022superposition}
+\citation{dai2022can,vonoswald2023transformers,akyurek2023what}
+\citation{lu2022fantastically,zhao2021calibrate,min2022rethinking}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Cross-format transfer. Identical operations with different output formats show 0\% transfer; structurally similar formats show 90\%.}}{10}{table.7}\protected@file@percent }
+\newlabel{tab:format}{{7}{10}{Cross-format transfer. Identical operations with different output formats show 0\% transfer; structurally similar formats show 90\%}{table.7}{}}
+\@writefile{toc}{\contentsline {paragraph}{The template hypothesis.}{10}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Task complexity.}{10}{section*.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Related Work}{10}{section.6}\protected@file@percent }
+\newlabel{sec:related}{{6}{10}{Related Work}{section.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{Function vectors and task representations.}{10}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Distributed representations and format sensitivity.}{10}{section*.18}\protected@file@percent }
+\bibstyle{splncs04}
+\bibcite{brown2020language}{1}
+\bibcite{garg2022can}{2}
+\bibcite{wei2022emergent}{3}
+\bibcite{turner2023activation}{4}
+\bibcite{todd2023function}{5}
+\bibcite{hendel2023context}{6}
+\bibcite{ravfogel2020null}{7}
+\bibcite{elazar2021amnesic}{8}
+\bibcite{olsson2022context}{9}
+\bibcite{wang2023interpretability}{10}
+\bibcite{conmy2023towards}{11}
+\bibcite{vig2020investigating}{12}
+\bibcite{meng2022locating}{13}
+\bibcite{belinkov2019analysis}{14}
+\bibcite{elhage2021mathematical}{15}
+\bibcite{bai2023qwen}{16}
+\bibcite{team2024gemma}{17}
+\bibcite{wei2022chain}{18}
+\bibcite{hinton1984distributed}{19}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{11}{section.7}\protected@file@percent }
+\newlabel{sec:conclusion}{{7}{11}{Conclusion}{section.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Disclosure of Interests.}{11}{section*.19}\protected@file@percent }
+\bibcite{elhage2022superposition}{20}
+\bibcite{dai2022can}{21}
+\bibcite{vonoswald2023transformers}{22}
+\bibcite{akyurek2023what}{23}
+\bibcite{lu2022fantastically}{24}
+\bibcite{zhao2021calibrate}{25}
+\bibcite{min2022rethinking}{26}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Extended Methods}{13}{section.1}\protected@file@percent }
+\newlabel{app:methods}{{A}{13}{Extended Methods}{section.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Task Definitions and Input Generation}{13}{subsection.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Complete task specifications with input generation procedures and output formats.}}{13}{table.8}\protected@file@percent }
+\newlabel{tab:task_details}{{8}{13}{Complete task specifications with input generation procedures and output formats}{table.8}{}}
+\@writefile{toc}{\contentsline {paragraph}{Input Generation.}{13}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Demonstration Sampling.}{13}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Model and Infrastructure Details}{13}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Model Specification.}{13}{section*.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Activation Access.}{14}{section*.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Compute Infrastructure.}{14}{section*.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Intervention Implementation}{14}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Single-Position Intervention.}{14}{section*.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Multi-Position Intervention.}{14}{section*.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.4}Noise Injection for Causal Tracing}{14}{subsection.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Additional Results}{15}{section.2}\protected@file@percent }
+\newlabel{app:results}{{B}{15}{Additional Results}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1}Per-Task Transfer Matrix}{15}{subsection.2.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Full transfer matrix (layer 8, all\_demo, N=10). Rows are source tasks; columns are targets. Values are transfer rates (\%). Data from exp29.}}{15}{table.9}\protected@file@percent }
+\newlabel{tab:full_transfer}{{9}{15}{Full transfer matrix (layer 8, all\_demo, N=10). Rows are source tasks; columns are targets. Values are transfer rates (\%). Data from exp29}{table.9}{}}
+\@writefile{toc}{\contentsline {paragraph}{Transfer Rate Distribution.}{15}{section*.28}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Transfer rate distribution across all 56 task pairs. Most pairs show near-zero transfer; high transfer is concentrated in a procedural cluster.}}{16}{table.10}\protected@file@percent }
+\newlabel{tab:transfer_dist}{{10}{16}{Transfer rate distribution across all 56 task pairs. Most pairs show near-zero transfer; high transfer is concentrated in a procedural cluster}{table.10}{}}
+\@writefile{toc}{\contentsline {paragraph}{Explaining Asymmetric Transfer.}{16}{section*.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2}Layer-by-Layer Transfer Analysis}{16}{subsection.2.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Transfer rate by layer for uppercase $\to $ repeat\_word (all\_demo condition, N=50 at layer 8, N=10 elsewhere).}}{16}{table.11}\protected@file@percent }
+\newlabel{tab:layer_sweep}{{11}{16}{Transfer rate by layer for uppercase $\to $ repeat\_word (all\_demo condition, N=50 at layer 8, N=10 elsewhere)}{table.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.3}Demo Count Ablation}{16}{subsection.2.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Effect of \textbf  {target} demo count on task accuracy and transfer (source fixed at 5-shot). Transfer remains constant regardless of target demos.}}{17}{table.12}\protected@file@percent }
+\newlabel{tab:demo_count}{{12}{17}{Effect of \textbf {target} demo count on task accuracy and transfer (source fixed at 5-shot). Transfer remains constant regardless of target demos}{table.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.4}Position Count Ablation}{17}{subsection.2.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Transfer rate by number of output positions replaced (layer 8, mean across 3 pairs, 10 random subsets per size). Transfer shows a sharp threshold, not gradual scaling.}}{17}{table.13}\protected@file@percent }
+\newlabel{tab:position_count}{{13}{17}{Transfer rate by number of output positions replaced (layer 8, mean across 3 pairs, 10 random subsets per size). Transfer shows a sharp threshold, not gradual scaling}{table.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.5}Source Demo Count Scaling}{17}{subsection.2.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Effect of \textbf  {source} demo count (target fixed at 5-shot, layer 8, N=20). Source demos show all-or-nothing threshold.}}{17}{table.14}\protected@file@percent }
+\newlabel{tab:source_demos}{{14}{17}{Effect of \textbf {source} demo count (target fixed at 5-shot, layer 8, N=20). Source demos show all-or-nothing threshold}{table.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.6}Sentiment Variant Transfer}{18}{subsection.2.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Transfer between sentiment variants (layer 8, all\_demo, N=20). Word-label variants transfer near-perfectly.}}{18}{table.15}\protected@file@percent }
+\newlabel{tab:sentiment_variants}{{15}{18}{Transfer between sentiment variants (layer 8, all\_demo, N=20). Word-label variants transfer near-perfectly}{table.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.7}Variable-Length Output Tasks}{18}{subsection.2.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces Variable-length task transfer (layer 8, N=15). Transfer only succeeds when output token counts match.}}{18}{table.16}\protected@file@percent }
+\newlabel{tab:variable_length}{{16}{18}{Variable-length task transfer (layer 8, N=15). Transfer only succeeds when output token counts match}{table.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.8}Scaling Visualization}{19}{subsection.2.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Scaling thresholds.} (a) Position count: transfer remains near-zero until nearly all output positions are replaced. (b) Source demo count: transfer is all-or-nothing (0\% with 1--3 demos, 93\% with 5 demos).}}{19}{figure.4}\protected@file@percent }
+\newlabel{fig:scaling}{{4}{19}{\textbf {Scaling thresholds.} (a) Position count: transfer remains near-zero until nearly all output positions are replaced. (b) Source demo count: transfer is all-or-nothing (0\% with 1--3 demos, 93\% with 5 demos)}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.9}Task Ontology Analysis}{19}{subsection.2.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces Pairwise cosine similarity between task representations (layer 12).}}{19}{table.17}\protected@file@percent }
+\newlabel{tab:similarity}{{17}{19}{Pairwise cosine similarity between task representations (layer 12)}{table.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.10}Ablation: Intervention at Different Positions}{20}{subsection.2.10}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces Single-position intervention at different positions (layer 14).}}{20}{table.18}\protected@file@percent }
+\newlabel{tab:position_ablation}{{18}{20}{Single-position intervention at different positions (layer 14)}{table.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.11}Detailed Probing Results Across All Layers}{20}{subsection.2.11}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {19}{\ignorespaces Probe accuracy (\%) across all 28 layers for three key positions.}}{20}{table.19}\protected@file@percent }
+\newlabel{tab:full_probing}{{19}{20}{Probe accuracy (\%) across all 28 layers for three key positions}{table.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.12}Attention Pattern Analysis}{20}{subsection.2.12}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {20}{\ignorespaces Mean attention weight from first query token to different position types (layer 8, head average).}}{21}{table.20}\protected@file@percent }
+\newlabel{tab:attention}{{20}{21}{Mean attention weight from first query token to different position types (layer 8, head average)}{table.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.13}Error Analysis}{21}{subsection.2.13}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {21}{\ignorespaces Error categorization for failed transfer attempts (layer 8, all\_demo condition).}}{21}{table.21}\protected@file@percent }
+\newlabel{tab:errors}{{21}{21}{Error categorization for failed transfer attempts (layer 8, all\_demo condition)}{table.21}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.14}Multi-Model Replication}{21}{subsection.2.14}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {22}{\ignorespaces Multi-model replication of key findings. Optimal intervention layer is consistently at $\sim $30\% network depth.}}{21}{table.22}\protected@file@percent }
+\newlabel{tab:multi_model}{{22}{21}{Multi-model replication of key findings. Optimal intervention layer is consistently at $\sim $30\% network depth}{table.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.15}Baseline Controls}{22}{subsection.2.15}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {23}{\ignorespaces Baseline controls confirm transfer requires correct task-specific content at correct positions.}}{22}{table.23}\protected@file@percent }
+\newlabel{tab:baseline_controls}{{23}{22}{Baseline controls confirm transfer requires correct task-specific content at correct positions}{table.23}{}}
+\@writefile{toc}{\contentsline {paragraph}{Why shuffled positions partially succeed for uppercase$\to $repeat\_word.}{22}{section*.30}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.16}Tokenization Confound Analysis}{22}{subsection.2.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.17}Layer Ablation Study}{22}{subsection.2.17}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {24}{\ignorespaces Tokenization does not explain transfer. Token-matched pairs show 0\% transfer; token-mismatched pairs show 90\%.}}{23}{table.24}\protected@file@percent }
+\newlabel{tab:tokenization}{{24}{23}{Tokenization does not explain transfer. Token-matched pairs show 0\% transfer; token-mismatched pairs show 90\%}{table.24}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {25}{\ignorespaces Task accuracy (\%) after ablating individual layers (zeroing layer output).}}{23}{table.25}\protected@file@percent }
+\newlabel{tab:layer_ablation}{{25}{23}{Task accuracy (\%) after ablating individual layers (zeroing layer output)}{table.25}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.18}Intervention Timing Analysis}{23}{subsection.2.18}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {26}{\ignorespaces Transfer rate (\%) by intervention timing within the forward pass.}}{23}{table.26}\protected@file@percent }
+\newlabel{tab:timing}{{26}{23}{Transfer rate (\%) by intervention timing within the forward pass}{table.26}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}Extended Discussion}{23}{section.3}\protected@file@percent }
+\newlabel{app:discussion}{{C}{23}{Extended Discussion}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.1}Why Layer 8?}{23}{subsection.3.1}\protected@file@percent }
+\citation{meng2022locating}
+\citation{hinton1984distributed}
+\citation{meng2022locating}
+\citation{todd2023function}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.2}Implications for Mechanistic Interpretability}{24}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.3}Connection to Distributed Representations}{24}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.4}Template Matching vs.\ Rule Learning}{24}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.5}Comparison to Prior Intervention Studies}{24}{subsection.3.5}\protected@file@percent }
+\citation{todd2023function}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Limitations and Future Work}{25}{section.4}\protected@file@percent }
+\newlabel{app:limitations}{{D}{25}{Limitations and Future Work}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.1}Model Scope}{25}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.2}Task Scope}{25}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.3}Sample Size Considerations}{25}{subsection.4.3}\protected@file@percent }
+\citation{todd2023function}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.4}Structural Similarity Metric}{26}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.5}Intervention Granularity}{26}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {E}Reproducibility}{26}{section.5}\protected@file@percent }
+\newlabel{app:reproducibility}{{E}{26}{Reproducibility}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.1}Code and Data}{26}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.2}Hyperparameters}{26}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.3}Software Dependencies}{26}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.4}Model Access}{26}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {27}{\ignorespaces Complete hyperparameter specification.}}{27}{table.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.5}Experimental Variance}{27}{subsection.5.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {28}{\ignorespaces N=50 experiments with Wilson score 95\% confidence intervals.}}{27}{table.28}\protected@file@percent }
+\newlabel{tab:variance}{{28}{27}{N=50 experiments with Wilson score 95\% confidence intervals}{table.28}{}}
+\gdef \@abspage@last{27}
