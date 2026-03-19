@@ -363,7 +363,7 @@ Our findings highlight a critical gap between probing and causal methods. Probin
 Todd et al.~\cite{todd2023function} extracted function vectors by averaging activations across prompts; Hendel et al.~\cite{hendel2023context} applied task vectors to new prompts, achieving successful task transfer. Our work explains \emph{why} averaging works: it implicitly captures the distributed encoding across multiple demonstration positions. This predicts that single-demo function vectors should fail---a testable hypothesis for future work.
 
 \textbf{Distributed representations.}
-Multi-position intervention aligns with classical distributed coding~\cite{hinton1984distributed}. Recent work on superposition~\cite{elhage2022superposition} shows that models encode multiple features in overlapping dimensions. Our finding---task identity distributed across demo outputs with no single position necessary---extends this principle to the sequence position dimension.
+Multi-position intervention aligns with classical distributed coding~\cite{hinton1986distributed}. Recent work on superposition~\cite{elhage2022superposition} shows that models encode multiple features in overlapping dimensions. Our finding---task identity distributed across demo outputs with no single position necessary---extends this principle to the sequence position dimension.
 
 \textbf{ICL as implicit optimization.}
 Theories framing ICL as implicit gradient descent~\cite{dai2022can,vonoswald2023transformers,akyurek2023what} complement our view: the model may learn input-output mappings while encoding task identity in output format templates. Our template hypothesis does not contradict optimization-based accounts but adds that the ``target function'' is represented structurally.
@@ -485,7 +485,7 @@ Jason Wei, Xuezhi Wang, Dale Schuurmans, et~al.
 \newblock Chain-of-thought prompting elicits reasoning in large language models.
 \newblock In \emph{NeurIPS}, 2022.
 
-\bibitem{hinton1984distributed}
+\bibitem{hinton1986distributed}
 Geoffrey~E. Hinton, James~L. McClelland, and David~E. Rumelhart.
 \newblock Distributed representations.
 \newblock In \emph{Parallel Distributed Processing}, 1986.
@@ -1050,7 +1050,7 @@ More specifically, our results suggest ICL task identity has a different causal 
 
 \subsection{Connection to Distributed Representations}
 
-The fault tolerance we observe (0\% disruption when any single demo position is noised) is a hallmark of distributed coding~\cite{hinton1984distributed}. The position count ablation (Table~\ref{tab:position_count}) confirms there is no critical subset---transfer shows a sharp threshold requiring nearly all positions (Figure~\ref{fig:scaling}).
+The fault tolerance we observe (0\% disruption when any single demo position is noised) is a hallmark of distributed coding~\cite{hinton1986distributed}. The position count ablation (Table~\ref{tab:position_count}) confirms there is no critical subset---transfer shows a sharp threshold requiring nearly all positions (Figure~\ref{fig:scaling}).
 
 \subsection{Template Matching vs.\ Rule Learning}
 

@@ -22,8 +22,9 @@
 
 @inproceedings{dai2022can,
     author = {Dai, Damai and Sun, Yutao and Dong, Li and Hao, Yaru and Ma, Shuming and Sui, Zhifang and Wei, Furu},
-    title = {Why can {GPT} learn in-context? Language models implicitly perform gradient descent as meta-optimizers},
-    booktitle = {ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models},
+    title = {Why can {GPT} learn in-context? Language models secretly perform gradient descent as meta-optimizers},
+    booktitle = {Findings of the Association for Computational Linguistics: ACL 2023},
+    pages = {4005--4019},
     year = {2023}
 }
 
@@ -66,14 +67,6 @@
 % PROBING AND CAUSAL METHODS
 % ============================================
 
-@inproceedings{conneau2018probing,
-    author = {Conneau, Alexis and Kruszewski, German and Lample, Guillaume and Barrault, Lo{\"\i}c and Baroni, Marco},
-    title = {What you can cram into a single \$\&!\#* vector: Probing sentence embeddings for linguistic properties},
-    booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
-    pages = {2126--2136},
-    year = {2018}
-}
-
 @inproceedings{ravfogel2020null,
     author = {Ravfogel, Shauli and Elazar, Yanai and Gonen, Hila and Twiton, Michael and Goldberg, Yoav},
     title = {Null it out: Guarding protected attributes by iterative nullspace projection},
@@ -82,21 +75,12 @@
     year = {2020}
 }
 
-@inproceedings{elazar2021amnesic,
+@article{elazar2021amnesic,
     author = {Elazar, Yanai and Ravfogel, Shauli and Jacovi, Alon and Goldberg, Yoav},
     title = {Amnesic probing: Behavioral explanation with amnesic counterfactuals},
-    booktitle = {Transactions of the Association for Computational Linguistics},
+    journal = {Transactions of the Association for Computational Linguistics},
     volume = {9},
     pages = {160--175},
-    year = {2021}
-}
-
-@inproceedings{geiger2021causal,
-    author = {Geiger, Atticus and Lu, Hanson and Icard, Thomas and Potts, Christopher},
-    title = {Causal abstractions of neural networks},
-    booktitle = {Advances in Neural Information Processing Systems},
-    volume = {34},
-    pages = {9574--9586},
     year = {2021}
 }
 
@@ -116,14 +100,6 @@
     volume = {35},
     pages = {17359--17372},
     year = {2022}
-}
-
-@book{pearl2009causality,
-    author = {Pearl, Judea},
-    title = {Causality: Models, Reasoning, and Inference},
-    publisher = {Cambridge University Press},
-    year = {2009},
-    edition = {2nd}
 }
 
 % ============================================
@@ -151,7 +127,7 @@
 % ============================================
 
 @article{turner2023activation,
-    author = {Turner, Alexander Matt and Thiergart, Lisa and Udell, David and Leech, Gavin and Mini, Ulisse and Macdonald, Monte},
+    author = {Turner, Alexander Matt and Thiergart, Lisa and Udell, David and Leech, Gavin and Mini, Ulisse and MacDiarmid, Monte},
     title = {Activation addition: Steering language models without optimization},
     journal = {arXiv preprint arXiv:2308.10248},
     year = {2023}
@@ -161,10 +137,10 @@
 % DISTRIBUTED REPRESENTATIONS
 % ============================================
 
-@incollection{hinton1984distributed,
+@incollection{hinton1986distributed,
     author = {Hinton, Geoffrey E and McClelland, James L and Rumelhart, David E},
     title = {Distributed representations},
-    booktitle = {Parallel Distributed Processing: Explorations in the Microstructure of Cognition},
+    booktitle = {Parallel Distributed Processing: Explorations in the Microstructure of Cognition, Vol.\ 1},
     publisher = {MIT Press},
     pages = {77--109},
     year = {1986}
@@ -175,30 +151,16 @@
 % ============================================
 
 @inproceedings{min2022rethinking,
-    author = {Min, Sewon and Lyu, Xinxi and Holtzman, Ari and Arber, Mikel and Lewis, Mike and Hajishirzi, Hannaneh and Zettlemoyer, Luke},
+    author = {Min, Sewon and Lyu, Xinxi and Holtzman, Ari and Artetxe, Mikel and Lewis, Mike and Hajishirzi, Hannaneh and Zettlemoyer, Luke},
     title = {Rethinking the role of demonstrations: What makes in-context learning work?},
     booktitle = {Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
     pages = {11048--11064},
     year = {2022}
 }
 
-@inproceedings{xie2022explanation,
-    author = {Xie, Sang Michael and Raghunathan, Aditi and Liang, Percy and Ma, Tengyu},
-    title = {An explanation of in-context learning as implicit {Bayesian} inference},
-    booktitle = {International Conference on Learning Representations},
-    year = {2022}
-}
-
 % ============================================
 % MODEL PAPERS
 % ============================================
-
-@article{touvron2023llama,
-    author = {Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others},
-    title = {Llama 2: Open foundation and fine-tuned chat models},
-    journal = {arXiv preprint arXiv:2307.09288},
-    year = {2023}
-}
 
 @article{bai2023qwen,
     author = {Bai, Jinze and Bai, Shuai and Chu, Yunfei and Cui, Zeyu and Dang, Kai and Deng, Xiaodong and Fan, Yang and Ge, Wenbin and Han, Yu and Huang, Fei and others},
@@ -217,14 +179,6 @@
 % ============================================
 % TRANSFORMERS AND ATTENTION
 % ============================================
-
-@inproceedings{vaswani2017attention,
-    author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
-    title = {Attention is all you need},
-    booktitle = {Advances in Neural Information Processing Systems},
-    volume = {30},
-    year = {2017}
-}
 
 @article{belinkov2019analysis,
     author = {Belinkov, Yonatan and Glass, James},
@@ -286,13 +240,6 @@
     url = {https://transformer-circuits.pub/2022/toy_model}
 }
 
-@inproceedings{nanda2023progress,
-    author = {Nanda, Neel and Chan, Lawrence and Lieberum, Tom and Smith, Jess and Steinhardt, Jacob},
-    title = {Progress measures for grokking via mechanistic interpretability},
-    booktitle = {International Conference on Learning Representations},
-    year = {2023}
-}
-
 @inproceedings{wang2023interpretability,
     author = {Wang, Kevin and Variengien, Alexandre and Conmy, Arthur and Shlegeris, Buck and Steinhardt, Jacob},
     title = {Interpretability in the wild: A circuit for indirect object identification in {GPT-2} small},
@@ -306,85 +253,4 @@
     journal = {Advances in Neural Information Processing Systems},
     volume = {36},
     year = {2023}
-}
-
-@inproceedings{li2023emergent,
-    author = {Li, Kenneth and Hopkins, Aspen K and Bau, David and Vi{\'e}gas, Fernanda and Pfister, Hanspeter and Wattenberg, Martin},
-    title = {Emergent world representations: Exploring a sequence model trained on a synthetic task},
-    booktitle = {International Conference on Learning Representations},
-    year = {2023}
-}
-
-% ============================================
-% SCALING LAWS
-% ============================================
-
-@article{kaplan2020scaling,
-    author = {Kaplan, Jared and McCandlish, Sam and Henighan, Tom and Brown, Tom B and Chess, Benjamin and Child, Rewon and Gray, Scott and Radford, Alec and Wu, Jeffrey and Amodei, Dario},
-    title = {Scaling laws for neural language models},
-    journal = {arXiv preprint arXiv:2001.08361},
-    year = {2020}
-}
-
-@article{hoffmann2022training,
-    author = {Hoffmann, Jordan and Borgeaud, Sebastian and Mensch, Arthur and Buchatskaya, Elena and Cai, Trevor and Rutherford, Eliza and Casas, Diego de Las and Hendricks, Lisa Anne and Welbl, Johannes and Clark, Aidan and others},
-    title = {Training compute-optimal large language models},
-    journal = {Advances in Neural Information Processing Systems},
-    volume = {35},
-    pages = {30016--30030},
-    year = {2022}
-}
-
-% ============================================
-% ADDITIONAL ICL THEORY
-% ============================================
-
-@inproceedings{xie2022an,
-    author = {Xie, Sang Michael and Raghunathan, Aditi and Liang, Percy and Ma, Tengyu},
-    title = {An explanation of in-context learning as implicit {Bayesian} inference},
-    booktitle = {International Conference on Learning Representations},
-    year = {2022}
-}
-
-@inproceedings{merullo2024language,
-    author = {Merullo, Jack and Eickhoff, Carsten and Pavlick, Ellie},
-    title = {Language models implement simple word2vec-style vector arithmetic},
-    booktitle = {Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-    pages = {5030--5047},
-    year = {2024}
-}
-
-% ============================================
-% ACTIVATION STEERING ADDITIONAL
-% ============================================
-
-@inproceedings{li2023inference,
-    author = {Li, Kenneth and Patel, Oam and Vi{\'e}gas, Fernanda and Pfister, Hanspeter and Wattenberg, Martin},
-    title = {Inference-time intervention: Eliciting truthful answers from a language model},
-    booktitle = {Advances in Neural Information Processing Systems},
-    volume = {36},
-    year = {2023}
-}
-
-% ============================================
-% STATISTICAL PHYSICS AND NEUROSCIENCE
-% ============================================
-
-@article{bahri2020statistical,
-    author = {Bahri, Yasaman and Kadmon, Jonathan and Pennington, Jeffrey and Schoenholz, Sam S and Sohl-Dickstein, Jascha and Ganguli, Surya},
-    title = {Statistical mechanics of deep learning},
-    journal = {Annual Review of Condensed Matter Physics},
-    volume = {11},
-    pages = {501--528},
-    year = {2020}
-}
-
-@article{quiroga2005invariant,
-    author = {Quiroga, R Quian and Reddy, Leila and Kreiman, Gabriel and Koch, Christof and Fried, Itzhak},
-    title = {Invariant visual representation by single neurons in the human brain},
-    journal = {Nature},
-    volume = {435},
-    number = {7045},
-    pages = {1102--1107},
-    year = {2005}
 }

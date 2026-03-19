@@ -325,7 +325,7 @@ Our tasks are deterministic transformations, enabling clean measurement. Semanti
 Todd et al.~\cite{todd2023function} extracted function vectors by averaging activations; Hendel et al.~\cite{hendel2023context} applied task vectors to new prompts. Our work explains why: averaging implicitly captures distributed encoding. This predicts single-demo function vectors should fail.
 
 \paragraph{Distributed representations and format sensitivity.}
-Multi-position intervention aligns with distributed coding~\cite{hinton1984distributed,elhage2022superposition}. Theories framing ICL as implicit optimization~\cite{dai2022can,vonoswald2023transformers,akyurek2023what} complement our view---the model may learn mappings while encoding task identity in output patterns. Prior work noted format sensitivity~\cite{lu2022fantastically,zhao2021calibrate,min2022rethinking}; our hypothesis extends this to activations.
+Multi-position intervention aligns with distributed coding~\cite{hinton1986distributed,elhage2022superposition}. Theories framing ICL as implicit optimization~\cite{dai2022can,vonoswald2023transformers,akyurek2023what} complement our view---the model may learn mappings while encoding task identity in output patterns. Prior work noted format sensitivity~\cite{lu2022fantastically,zhao2021calibrate,min2022rethinking}; our hypothesis extends this to activations.
 
 \section{Conclusion}
 \label{sec:conclusion}
@@ -412,7 +412,7 @@ Team, G., Mesnard, T., Hardin, C., et~al.: Gemma: Open models based on Gemini
 Wei, J., Wang, X., Schuurmans, D., et~al.: Chain-of-thought prompting elicits
   reasoning in large language models. In: NeurIPS (2022)
 
-\bibitem{hinton1984distributed}
+\bibitem{hinton1986distributed}
 Hinton, G.E., McClelland, J.L., Rumelhart, D.E.: Distributed representations.
   In: Parallel Distributed Processing (1986)
 
@@ -951,7 +951,7 @@ More specifically, our results suggest ICL task identity has a different causal 
 
 \subsection{Connection to Distributed Representations}
 
-The fault tolerance we observe (0\% disruption when any single demo position is noised) is a hallmark of distributed coding~\cite{hinton1984distributed}. The position count ablation (Table~\ref{tab:position_count}) confirms there is no critical subset---transfer shows a sharp threshold requiring nearly all positions (Figure~\ref{fig:scaling}).
+The fault tolerance we observe (0\% disruption when any single demo position is noised) is a hallmark of distributed coding~\cite{hinton1986distributed}. The position count ablation (Table~\ref{tab:position_count}) confirms there is no critical subset---transfer shows a sharp threshold requiring nearly all positions (Figure~\ref{fig:scaling}).
 
 \subsection{Template Matching vs.\ Rule Learning}
 

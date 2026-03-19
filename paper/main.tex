@@ -27,7 +27,7 @@
 Distributed Output Templates Drive In-Context Learning}
 
 \author{Bryan Cheng$^{*}$, Jasper Zhang$^{*}$ \\
-Great Neck South High School \\
+William A. Shine Great Neck South High School \\
 \texttt{\{bcbc7264@gmail.com, jasperzhang1001@gmail.com\}} \\
 $^{*}$Equal contribution
 }
@@ -35,7 +35,7 @@ $^{*}$Equal contribution
 \maketitle
 
 % Workshop header override
-\lhead{Workshop @ ICLR 2026}
+\lhead{Published as a workshop paper at ICLR 2026}
 
 \begin{abstract}
 Understanding how large language models encode task identity from few-shot demonstrations is a central open problem in mechanistic interpretability. Prior work uses linear probing to localize task representations, reporting high classification accuracy at specific layers. We reveal a striking dissociation: probing accuracy completely fails to predict causal importance. Single-position activation intervention achieves \textbf{0\% task transfer across all 28 layers} of Llama-3.2-3B---despite 100\% probing accuracy at those same positions. This null result is itself a key finding, demonstrating that task encoding is fundamentally distributed. Multi-position intervention---replacing activations at all demonstration output tokens simultaneously---achieves \textbf{up to 96\% transfer} (N=50, 95\% CI: [87\%, 99\%]) at layer 8, pinpointing for the first time the causal locus of ICL task identity. We establish the generality of these findings across four models spanning three architecture families (LLaMA, Qwen, Gemma), discovering a universal intervention window at $\sim$30\% network depth. Causal tracing uncovers an asymmetric architecture: the query position is strictly necessary (53--100\% disruption) while no individual demonstration position is necessary (0\% disruption)---resolving a key ambiguity in prior accounts. Crucially, transfer depends on internal representation compatibility, not surface similarity (r=$-$0.05 vs r=0.31), ruling out trivial explanations. These results establish the \emph{distributed template hypothesis}: ICL task identity is encoded as output format templates distributed across demonstration tokens, fundamentally reshaping our understanding of how in-context learning operates.
@@ -341,15 +341,15 @@ Our tasks are deterministic transformations, enabling clean measurement. Semanti
 \citet{todd2023function} extracted function vectors by averaging activations; \citet{hendel2023context} applied task vectors to new prompts. Our work explains why: averaging implicitly captures distributed encoding. This predicts single-demo function vectors should fail.
 
 \paragraph{Distributed representations and format sensitivity.}
-Multi-position intervention aligns with distributed coding \citep{hinton1984distributed,elhage2022superposition}. Theories framing ICL as implicit optimization \citep{dai2022can,vonoswald2023transformers,akyurek2023what} complement our view---the model may learn mappings while encoding task identity in output patterns. Prior work noted format sensitivity \citep{lu2022fantastically,zhao2021calibrate,min2022rethinking}; our hypothesis extends this to activations.
+Multi-position intervention aligns with distributed coding \citep{hinton1986distributed,elhage2022superposition}. Theories framing ICL as implicit optimization \citep{dai2022can,vonoswald2023transformers,akyurek2023what} complement our view---the model may learn mappings while encoding task identity in output patterns. Prior work noted format sensitivity \citep{lu2022fantastically,zhao2021calibrate,min2022rethinking}; our hypothesis extends this to activations.
 
 \section{Conclusion}
 \label{sec:conclusion}
 
 We investigated ICL task encoding through intervention experiments across four models. Key findings: (1) single-position intervention achieves 0\% transfer despite 100\% probing accuracy; (2) multi-position intervention at $\sim$30\% depth achieves 96\% transfer (CI: [87\%, 99\%]), replicating across LLaMA, Qwen, and Gemma; (3) transfer shows sharp thresholds in both position count and source demos. Token-count compatibility drives transfer, yet templates are abstract (sentiment variants transfer at 95\%). For activation steering, coordinated multi-position replacement at early-middle layers is required.
 
-\bibliography{references}
 \bibliographystyle{iclr2026_conference}
+\bibliography{references}
 
 \newpage
 \appendix
@@ -874,7 +874,7 @@ More specifically, our results suggest ICL task identity has a different causal 
 
 \subsection{Connection to Distributed Representations}
 
-The fault tolerance we observe (0\% disruption when any single demo position is noised) is a hallmark of distributed coding \citep{hinton1984distributed}. The position count ablation (Table~\ref{tab:position_count}) confirms there is no critical subset---transfer shows a sharp threshold requiring nearly all positions (Figure~\ref{fig:scaling}).
+The fault tolerance we observe (0\% disruption when any single demo position is noised) is a hallmark of distributed coding \citep{hinton1986distributed}. The position count ablation (Table~\ref{tab:position_count}) confirms there is no critical subset---transfer shows a sharp threshold requiring nearly all positions (Figure~\ref{fig:scaling}).
 
 \subsection{Template Matching vs.\ Rule Learning}
 

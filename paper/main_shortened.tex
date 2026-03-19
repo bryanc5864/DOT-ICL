@@ -315,7 +315,7 @@ Semantic tasks show near-zero cross-task transfer, but sentiment variants (same 
 \citet{todd2023function} extracted function vectors by averaging activations; \citet{hendel2023context} applied task vectors to new prompts. Our work explains why: averaging implicitly captures distributed encoding. This predicts single-demo function vectors should fail.
 
 \paragraph{Distributed representations.}
-Multi-position intervention aligns with distributed coding \citep{hinton1984distributed,elhage2022superposition}. Prior work noted format sensitivity \citep{lu2022fantastically,zhao2021calibrate}; our hypothesis extends this to internal activations.
+Multi-position intervention aligns with distributed coding \citep{hinton1986distributed,elhage2022superposition}. Prior work noted format sensitivity \citep{lu2022fantastically,zhao2021calibrate}; our hypothesis extends this to internal activations.
 
 \section{Conclusion}
 \label{sec:conclusion}
@@ -877,7 +877,7 @@ More specifically, our results suggest ICL task identity has a different causal 
 
 \subsection{Connection to Distributed Representations}
 
-The fault tolerance we observe (0\% disruption when any single demo position is noised) is a hallmark of distributed coding \citep{hinton1984distributed}. The position count ablation (Table~\ref{tab:position_count}) confirms there is no critical subset---transfer shows a sharp threshold requiring nearly all positions (Figure~\ref{fig:scaling}).
+The fault tolerance we observe (0\% disruption when any single demo position is noised) is a hallmark of distributed coding \citep{hinton1986distributed}. The position count ablation (Table~\ref{tab:position_count}) confirms there is no critical subset---transfer shows a sharp threshold requiring nearly all positions (Figure~\ref{fig:scaling}).
 
 \subsection{Template Matching vs.\ Rule Learning}
 

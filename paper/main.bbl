@@ -43,17 +43,17 @@ Arthur Conmy, Augustine~N Mavor-Parker, Aengus Lynch, Stefan Heimersheim, and
 
 \bibitem[Dai et~al.(2023)Dai, Sun, Dong, Hao, Ma, Sui, and Wei]{dai2022can}
 Damai Dai, Yutao Sun, Li~Dong, Yaru Hao, Shuming Ma, Zhifang Sui, and Furu Wei.
-\newblock Why can {GPT} learn in-context? language models implicitly perform
+\newblock Why can {GPT} learn in-context? language models secretly perform
   gradient descent as meta-optimizers.
-\newblock In \emph{ICLR 2023 Workshop on Mathematical and Empirical
-  Understanding of Foundation Models}, 2023.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2023}, pp.\  4005--4019, 2023.
 
 \bibitem[Elazar et~al.(2021)Elazar, Ravfogel, Jacovi, and
   Goldberg]{elazar2021amnesic}
 Yanai Elazar, Shauli Ravfogel, Alon Jacovi, and Yoav Goldberg.
 \newblock Amnesic probing: Behavioral explanation with amnesic counterfactuals.
-\newblock In \emph{Transactions of the Association for Computational
-  Linguistics}, volume~9, pp.\  160--175, 2021.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  9:\penalty0 160--175, 2021.
 
 \bibitem[Elhage et~al.(2021)Elhage, Nanda, Olsson, Henighan, Joseph, Mann,
   Askell, Bai, Chen, Conerly, et~al.]{elhage2021mathematical}
@@ -91,11 +91,11 @@ Roee Hendel, Mor Geva, and Amir Globerson.
   EMNLP 2023}, pp.\  9318--9333, 2023.
 
 \bibitem[Hinton et~al.(1986)Hinton, McClelland, and
-  Rumelhart]{hinton1984distributed}
+  Rumelhart]{hinton1986distributed}
 Geoffrey~E Hinton, James~L McClelland, and David~E Rumelhart.
 \newblock Distributed representations.
 \newblock In \emph{Parallel Distributed Processing: Explorations in the
-  Microstructure of Cognition}, pp.\  77--109. MIT Press, 1986.
+  Microstructure of Cognition, Vol.\ 1}, pp.\  77--109. MIT Press, 1986.
 
 \bibitem[Lu et~al.(2022)Lu, Bartolo, Moore, Riedel, and
   Stenetorp]{lu2022fantastically}
@@ -111,9 +111,9 @@ Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov.
 \newblock In \emph{Advances in Neural Information Processing Systems},
   volume~35, pp.\  17359--17372, 2022.
 
-\bibitem[Min et~al.(2022)Min, Lyu, Holtzman, Arber, Lewis, Hajishirzi, and
+\bibitem[Min et~al.(2022)Min, Lyu, Holtzman, Artetxe, Lewis, Hajishirzi, and
   Zettlemoyer]{min2022rethinking}
-Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Arber, Mike Lewis, Hannaneh
+Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh
   Hajishirzi, and Luke Zettlemoyer.
 \newblock Rethinking the role of demonstrations: What makes in-context learning
   work?
@@ -145,9 +145,9 @@ Eric Todd, Millicent~L Li, Arnab~Sen Sharma, Aaron Mueller, Byron~C Wallace,
 \newblock In \emph{International Conference on Learning Representations}, 2024.
 
 \bibitem[Turner et~al.(2023)Turner, Thiergart, Udell, Leech, Mini, and
-  Macdonald]{turner2023activation}
+  MacDiarmid]{turner2023activation}
 Alexander~Matt Turner, Lisa Thiergart, David Udell, Gavin Leech, Ulisse Mini,
-  and Monte Macdonald.
+  and Monte MacDiarmid.
 \newblock Activation addition: Steering language models without optimization.
 \newblock \emph{arXiv preprint arXiv:2308.10248}, 2023.
 
